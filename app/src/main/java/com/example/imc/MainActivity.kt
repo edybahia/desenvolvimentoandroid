@@ -71,6 +71,7 @@ class MainActivity : AppCompatActivity() {
         btnLimpar.setOnClickListener {
             edtAltura.text.clear()
             edtPeso.text.clear()
+            txtView.text = 0.toString()
         }
     }
 
