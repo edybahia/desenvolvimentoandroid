@@ -67,6 +67,12 @@ class MainActivity : AppCompatActivity() {
 
                 }
         }
+
+        btnLimpar.setOnClickListener {
+            edtAltura.text.clear()
+            edtPeso.text.clear()
+
+        }
     }
 
 }
