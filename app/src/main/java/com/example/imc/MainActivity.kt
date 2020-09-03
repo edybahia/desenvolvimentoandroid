@@ -7,7 +7,7 @@ import android.widget.Toast
 import android.widget.Toast.makeText
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
-
+import kotlinx.android.synthetic.main.activity_splash.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -71,7 +71,6 @@ class MainActivity : AppCompatActivity() {
         btnLimpar.setOnClickListener {
             edtAltura.text.clear()
             edtPeso.text.clear()
-
         }
     }
 
